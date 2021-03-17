@@ -12,7 +12,7 @@ print "------------------------------------------------"
 print "--------------- Play Golf ? Yes/No -------------"
 print "------------------------------------------------"
 
-print "Masukkan Data Uji"
+print "Masukkan Data Uji (Huruf Kapital Harus Sesuai)"
 outlook_input = raw_input("Masukkan Outlook [Rainy | Overcast |Sunny] : ")
 temp_input = raw_input("Masukkan Temp [Hot | Mild |Cool] : ")
 humidity_input = raw_input("Masukkan Humidity [High |Normal] : ")
