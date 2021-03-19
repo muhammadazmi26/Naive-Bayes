@@ -3,20 +3,20 @@ from collections import Counter
 #
 # Muhammad Azmi / 17 Maret 2021
 # 
+# Python Version : 3.7.4
+#
 
-print "------------------------------------------------"
-print "--------------- METODE NAIVE BAYES -------------"
-print "------------------------------------------------"
-# print "---------------- Muhammad Azmi------------------"
-# print "------------------------------------------------"
-print "--------------- Play Golf ? Yes/No -------------"
-print "------------------------------------------------"
+print ("------------------------------------------------")
+print ("--------------- METODE NAIVE BAYES -------------")
+print ("------------------------------------------------")
+print ("--------------- Play Golf ? Yes/No -------------")
+print ("------------------------------------------------")
 
-print "Masukkan Data Uji (Huruf Kapital Harus Sesuai)"
-outlook_input = raw_input("Masukkan Outlook [Rainy | Overcast |Sunny] : ")
-temp_input = raw_input("Masukkan Temp [Hot | Mild |Cool] : ")
-humidity_input = raw_input("Masukkan Humidity [High |Normal] : ")
-windy_input = raw_input("Masukkan Windy [FALSE | TRUE] : ")
+print ("Masukkan Data Uji (Huruf Kapital Harus Sesuai !!)")
+outlook_input = input("Masukkan Outlook [Rainy | Overcast |Sunny] : ")
+temp_input = input("Masukkan Temp [Hot | Mild |Cool] : ")
+humidity_input = input("Masukkan Humidity [High |Normal] : ")
+windy_input = input("Masukkan Windy [FALSE | TRUE] : ")
 
 
           # ['Outlook','Temp','Humidity','Windy','Play Golf']
@@ -139,7 +139,7 @@ def kalikan_prob_label_dan_prob_atribut(label, probabilitas_label, hasil_kali_at
 # hasil probabilitas tertinggi
 def mencari_nilai_prob_tertinggi(hasil_kali_all_prob, isi_label) :
     index_tertinggi = hasil_kali_all_prob.index(max(hasil_kali_all_prob))
-    print "HASIL KLASIFIKASI : " , isi_label[index_tertinggi]
+    print ("HASIL KLASIFIKASI : " , isi_label[index_tertinggi])
 
 
 ########################################################
